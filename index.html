@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon.png">
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="./img/illustration.svg">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">Calculadora - IMC</h1>
+
+                <div class="input-box">
+                    <label for="weight">Peso em Kg</label>
+                    <div class="input-field">
+                        <img src="./img/weight.png" alt="Weight">
+                        <input type="number" id="weight" required>
+                        <span>Kg</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="height">Altura em metros</label>
+                    <div class="input-field">
+                        <img src="./img/ruler.png" alt="Height">
+                        <input type="number" id="height" step="any" required>
+                        <span>m</span>
+                    </div>
+                </div>
+
+                <button id="calculate">Calcular</button>
+            </form>
+            
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="more-info">
+                    <a href="https://brasilescola.uol.com.br/educacao-fisica/Indice-massa-corporal-imc.htm">
+                        Mais informações sobre o IMC
+                        <img src="./img/link.png">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
