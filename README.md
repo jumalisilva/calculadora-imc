@@ -19,3 +19,6 @@ Olá! Como treino de HTML, CSS e Javascript, e com ajuda do vídeo da Larissa Ki
   <br>
   Por isso, dentro do código Javascript, há condicionais baseadas na tabela do IMC para indicar se o IMC da pessoa está na normalidade ou não.
 </p>
+
+# Acesse o projeto
+<p>Acesse o projeto <a href="https://jumalisilva.github.io/calculadora-imc/">clicando aqui!</p>
